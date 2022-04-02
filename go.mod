@@ -4,6 +4,7 @@ go 1.12
 
 require (
 	cloud.google.com/go v0.57.0
+	cloud.google.com/go/pubsub v1.2.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.4.1 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
@@ -19,7 +20,7 @@ require (
 	github.com/spf13/cobra v1.0.0
 	golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79 // indirect
 	golang.org/x/net v0.0.0-20200505041828-1ed23360d12c // indirect
-	golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3 // indirect
+	golang.org/x/sys v0.0.0-20220330033206-e17cdc41300f // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
 	google.golang.org/api v0.23.0 // indirect
 	google.golang.org/genproto v0.0.0-20200430143042-b979b6f78d84
