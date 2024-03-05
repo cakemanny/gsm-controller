@@ -113,6 +113,10 @@ linux: ## Build for Linux
 	go mod download
 	CGO_ENABLED=$(CGO_ENABLED) GOOS=linux GOARCH=amd64 $(GO) $(BUILD_TARGET) $(BUILDFLAGS) -o build/linux/$(NAME) $(MAIN_SRC_FILE)
 	chmod +x build/linux/$(NAME)
+aarch64: ## Build for Linux
+	go mod download
+	CGO_ENABLED=$(CGO_ENABLED) GOOS=linux GOARCH=arm64 $(GO) $(BUILD_TARGET) $(BUILDFLAGS) -o build/aarch64/$(NAME) $(MAIN_SRC_FILE)
+	chmod +x build/aarch64/$(NAME)
 
 arm: ## Build for ARM
 	CGO_ENABLED=$(CGO_ENABLED) GOOS=linux GOARCH=arm $(GO) $(BUILD_TARGET) $(BUILDFLAGS) -o build/arm/$(NAME) $(MAIN_SRC_FILE)

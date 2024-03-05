@@ -1,3 +1,7 @@
+> [!NOTE]
+> This branch just contains some stashed changes for using the helm chart
+> with ghcr.io/cakemanny/gsm-controller
+
 # gsm-controller
 
 [![Documentation](https://godoc.org/github.com/jenkins-x-labs/gsm-controller?status.svg)](https://pkg.go.dev/mod/github.com/jenkins-x-labs/gsm-controller)
